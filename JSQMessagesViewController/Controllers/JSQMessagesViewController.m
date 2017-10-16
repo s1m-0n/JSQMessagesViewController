@@ -134,10 +134,6 @@ JSQMessagesKeyboardControllerDelegate>
 
 @property(assign, nonatomic) CGFloat bottomLayoutDefaultValue;
 
-@property (weak, nonatomic) UIView *snapshotView;
-
-@property (assign, nonatomic) BOOL jsq_isObserving;
-
 @property (strong, nonatomic) NSIndexPath *selectedIndexPathForMenu;
 
 @property (weak, nonatomic) UIGestureRecognizer *currentInteractivePopGestureRecognizer;
